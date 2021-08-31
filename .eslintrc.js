@@ -19,6 +19,7 @@ module.exports = {
         'plugin:node/recommended',
     ],
     rules: {
+        'no-console': 'warn',
         'node/no-missing-import': [
             'error',
             {
